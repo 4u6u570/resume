@@ -1,0 +1,200 @@
+<!-- Author: Augusto Salazar 2020 // augustosalazar@outlook.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/tailwind.css">
+    <!-- Librerías CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        
+    <title>Augusto Salazar Resume 2020</title>
+</head>
+
+<body>
+
+<div class="inicio"id="inicio">
+
+    <!-- Efecto Partículas -->
+<div id="particles-js"></div>
+
+<!-- Back to Top Button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-arrow-up" aria-hidden="true"></button>
+
+    <!-- Líneas SVG para DESKTOP's -->
+
+    <svg class="linea2 animate__animated animate__fadeInDownBig animate__delay-0s" viewBox="0 3 800 300">
+        <line x1="10" y1="150" x2="10" y2="0">
+    </svg>
+
+    <!-- Despliegue del menú MÓVIL -->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a class = "lista" onclick= "closeNav()" href="#menu-01">HOME</a>
+              <a class = "lista" onclick= "closeNav()" href="#menu-02">ABOUT</a>
+              <a class = "lista" onclick= "closeNav()" href="#menu-03">PROJECTS</a>
+            </div>
+          </div>
+
+    <!-- Botón Menú + Nombre -->
+    <section id= "menu-01">
+    <div id= "boton-menu">
+        <span onclick="openNav()" class="barra-menu fas fa-bars"></span>
+        </div>
+          
+   <!-- Barra lateral + Texto Social -se integra con las líneas SVG- -->
+        <div class="container-social">
+        <ul>
+            <a class="social animate__animated animate__fadeInUp animate__delay-1s" href=javascript:(void)>social</a>
+        </ul>
+    </div>
+
+   <div class="lateral-nav animate__animated animate__fadeInUp animate__delay-1s"> 
+        
+    <!-- Font-Awesome icons -->
+        <ul>
+            <li><a href = "mailto:augustosalazar@outlook.com" class="fa fa-envelope" id= "email"></a></li>
+            <li><a href = "https://github.com/4u6u570" class="fab fa-github"></a></li>
+            <li><a href = "https://linkedin.com/in/augustosalazar" class="fab fa-linkedin"></a></li>
+            <li><a href = "https://behance.com/4u6u570" class="fab fa-behance"><a></li>
+        </ul>
+    </div>
+    
+    <!-- Info personal-->
+   <div id="datos-personales">
+    <h1 class="nombre animate__animated animate__fadeInLeft animate__delay-2.5s">
+      AUGUSTO SALAZAR
+    </h1>
+        <h2 class="web-developer animate__animated animate__fadeInUp animate__delay-1s">
+            WEB DEVELOPER
+        </h2>
+        <h2 class="ux-designer animate__animated animate__fadeInUp animate__delay-2s">
+            UX/UI DESIGNER
+        </h2>
+        <div id = "download-resume">
+        <a href="https://u.pcloud.link/publink/show?code=XZHJtakZmlQgBrTOIXf2OD98HRFm6jrXi1KX" class="download animate__animated animate__fadeIn animate__delay-3s">DOWNLOAD RESUME</a>
+        </div>
+    </div>
+</section>  
+</div>
+
+    <!-- Sección ABOUT -->
+
+    <div id= "about">
+    <h1 class= "about-me text-yellow-200" id ="menu-02">
+        ABOUT ME
+    </h1>
+<div id= "parrafo-about">
+    <p class = "texto">Hola! My name is Augusto and I'm a Web Developer Jr. and UX/UI Designer Jr. from Salta, Argentina.</p>
+    
+    <p class = "texto">I have excellent interpersonal relationships and I adapt quickly in various contexts.
+    
+    Also, I have the capacity to work in teams while maintaining a strong proactive and functional attitude.</p>
+    
+    <p class = "texto">Creative by nature, I manage my time by constantly learning to acquire new skills for the future.</p>
+    </p>
+    
+
+    <p class = "texto">Development & Design stack: </p>
+        
+        <div id = "iconos-skills">
+           
+        <ul class= "stack">
+            <li class= "skills devicon-html5-plain"></li>
+            <li class= "skills devicon-css3-plain"></li>
+            <li class= "skills devicon-javascript-plain"></li>
+            <li class= "skills devicon-nodejs-plain"></li>
+            <li class= "skills devicon-express-original"></li>
+            <li class= "skills devicon-react-original"></li>
+            <li class= "skills devicon-mysql-plain"></li>
+            <li class= "skills devicon-sass-original"></li>
+            <li class= "skills devicon-git-plain"></li>
+            <li class= "skills devicon-wordpress-plain"></li>
+            <li class= "skills devicon-photoshop-line"></li>
+            <li class= "skills devicon-illustrator-line"></li> 
+        </ul>
+</div>
+</div>
+
+    <!-- Sección PROJECTS -->
+    <div id= "projects">
+        <h1 class= "projects" id ="menu-03">
+            PROJECTS
+        </h1>
+    <div class= "container-proyectos flex justify-around flex-wrap">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href= "https://github.com/4u6u570/rompecabezas">
+            <img class="w-full" src="../img/01.png" alt="BMO puzzle project"></a>
+            <div class="text-white px-6 py-4">
+              <div class="font-bold text-xl mb-2">BMO Puzzle</div>
+              <p class="text-gray-400 text-base text-left">
+                A funny puzzle where you have to find the way to help BMO to take a shower using just the arrows in your keyboard :)
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS3</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">HTML5</span>
+            </div>
+          </div>
+        <div class= "py-4"></div>
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <a href= "https://github.com/4u6u570/home-banking">
+            <img class="w-full" src="../img/02.jpg" alt="Home Banking Project"></a>
+            <div class="text-white px-6 py-4">
+              <div class="font-bold text-xl mb-2">Home Banking</div>
+              <p class="text-gray-400 text-base text-left">
+                A simple homebanking app that let you send and receive money in your bank account and pay some bills.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS3</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">HTML5</span>
+            </div>
+            <div class= "py-4"></div>
+            
+          </div>
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <a href= "https://github.com/4u6u570/pixel-art">
+            <img class="w-full" src="../img/03.jpg" alt="Pixel Art Project"></a>
+            <div class="text-white px-6 py-4">
+              <div class="font-bold text-xl mb-2">Pixel Art</div>
+              <p class="text-gray-400 text-base text-left">
+                A beautiful Pixel Art game to explore all your potential as an artist. Who knows... maybe you could be the next Banksy!
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">JavaScript</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS3</span>
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">HTML5</span>
+            </div>
+          </div>
+    </div>
+        
+     <!-- Sección Footer -->
+<footer>
+    <h1 class="footer">Augusto Salazar &copy 2020.</h1>
+</footer>
+
+    <!-- Scripts -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/particles.min.js"></script>
+    <script src="../js/particulas-config.js"></script>
+    <script src="../js/backToTop.js"></script>
+    
+</body>
+
+</html>
