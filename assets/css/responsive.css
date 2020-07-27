@@ -481,7 +481,7 @@ h1.projects {
     display: none;
   }
   .lateral-nav {
-    margin-top: 22em;
+    margin-top: 20em;
     margin-right: 0;
   }
 
@@ -504,10 +504,6 @@ h1.projects {
 
 /* Samsung S8+*/
 @media (max-width: 412px) {
-
-  body {
-    margin:0;
-  }
 
 #boton-menu {
   margin-top: -2em;
@@ -546,7 +542,7 @@ h1.projects {
 }
 
 .lateral-nav {
-  margin-top: 22em;
+  margin-top: 20em;
   margin-right: 0;
 }
 
